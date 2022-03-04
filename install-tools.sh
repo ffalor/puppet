@@ -8,5 +8,6 @@ rm puppet.deb
 
 apt-get update
 
+apt-get -y install build-essential
 apt-get -y install --no-install-recommends puppet-bolt
 apt-get -y install --no-install-recommends pdk
