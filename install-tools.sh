@@ -2,7 +2,7 @@
 
 set +x
 
-wget -O puppet.deb https://apt.puppet.com/puppet-tools-release-buster.deb
+wget -O puppet.deb https://apt.puppet.com/puppet-tools-release-jammy.deb
 dpkg -i puppet.deb
 rm puppet.deb
 

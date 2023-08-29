@@ -2,7 +2,7 @@
 
 set +x
 
-wget -O puppet-agent.deb https://apt.puppet.com/puppet7-release-focal.deb 
+wget -O puppet-agent.deb https://apt.puppet.com/puppet7-release-jammy.deb 
 dpkg -i puppet-agent.deb
 rm puppet-agent.deb
 

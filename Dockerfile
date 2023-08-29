@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20210723
+FROM ubuntu:jammy-20230804
 
 WORKDIR /root
 
